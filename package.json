@@ -1,0 +1,21 @@
+{
+  "name": "chevere.club",
+  "version": "0.1.0",
+  "description": "Sitio de Chevere Club Creativo",
+  "main": "server.js",
+  "keywords": [
+    "chevere",
+    "club",
+    "creativo"
+  ],
+  "author": "malogarzo",
+  "dependencies": {
+    "express": "^4.14.0",
+    "materialize-css": "^0.97.6"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.3.2",
+    "gulp-rename": "^1.2.2"
+  }
+}

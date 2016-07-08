@@ -2,6 +2,24 @@ html
   head
     link(href='https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet')
     link(rel='stylesheet' type='text/css' href='app.css')
+    
+    link(rel='apple-touch-icon', sizes='57x57', href='/apple-icon-57x57.png')
+    link(rel='apple-touch-icon', sizes='60x60', href='/apple-icon-60x60.png')
+    link(rel='apple-touch-icon', sizes='72x72', href='/apple-icon-72x72.png')
+    link(rel='apple-touch-icon', sizes='76x76', href='/apple-icon-76x76.png')
+    link(rel='apple-touch-icon', sizes='114x114', href='/apple-icon-114x114.png')
+    link(rel='apple-touch-icon', sizes='120x120', href='/apple-icon-120x120.png')
+    link(rel='apple-touch-icon', sizes='144x144', href='/apple-icon-144x144.png')
+    link(rel='apple-touch-icon', sizes='152x152', href='/apple-icon-152x152.png')
+    link(rel='apple-touch-icon', sizes='180x180', href='/apple-icon-180x180.png')
+    link(rel='icon', type='image/png', sizes='192x192', href='/android-icon-192x192.png')
+    link(rel='icon', type='image/png', sizes='32x32', href='/favicon-32x32.png')
+    link(rel='icon', type='image/png', sizes='96x96', href='/favicon-96x96.png')
+    link(rel='icon', type='image/png', sizes='16x16', href='/favicon-16x16.png')
+    link(rel='manifest', href='/manifest.json')
+    meta(name='msapplication-TileColor', content='#ffffff')
+    meta(name='msapplication-TileImage', content='/ms-icon-144x144.png')
+    meta(name='theme-color', content='#ffffff')
     meta(charset='UTF-8')
     meta(name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no')
 
@@ -42,6 +60,33 @@ html
       .parallax
         img(src='background1.jpg', alt='Unsplashed background img 1')
 
+    .container
+      .section
+        // Icon Section
+        .row
+          .col.s12.m4
+            .icon-block
+              h2.center.brown-text
+                i.material-icons flash_on
+              h5.center Speeds up development
+              p.light
+                | We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.
+          .col.s12.m4
+            .icon-block
+              h2.center.brown-text
+                i.material-icons group
+              h5.center User Experience Focused
+              p.light
+                | By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system across all platforms allow for a more unified user experience.
+          .col.s12.m4
+            .icon-block
+              h2.center.brown-text
+                i.material-icons settings
+              h5.center Easy to work with
+              p.light
+                | We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.
+
+
     footer.page-footer.teal
       .container
         .row
@@ -79,4 +124,4 @@ html
 
     script(src='https://code.jquery.com/jquery-2.2.4.min.js', integrity='sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=', crossorigin='anonymous')
     script(src='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js')
-    script(src='public/js/init.js')
+    script(type='application/javascript' src='app.js')

@@ -1,7 +1,7 @@
 {
   "name": "chevere.club",
   "version": "0.1.0",
-  "description": "Sitio de Chevere Club Creativo",
+  "description": "Website Chevere Club Creativo",
   "main": "server.js",
   "keywords": [
     "chevere",
@@ -10,10 +10,12 @@
   ],
   "author": "malogarzo",
   "dependencies": {
+    "empty-element": "^1.0.0",
     "express": "^4.14.0",
     "materialize-css": "^0.97.6",
     "page": "^1.7.1",
-    "pug": "^2.0.0-beta3"
+    "pug": "^2.0.0-beta3",
+    "yo-yo": "^1.2.2"
   },
   "devDependencies": {
     "babelify": "^7.3.0",
@@ -21,6 +23,11 @@
     "gulp": "^3.9.1",
     "gulp-rename": "^1.2.2",
     "gulp-sass": "^2.3.2",
-    "vinyl-source-stream": "^1.1.0"
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.7.0"
+  },
+  "scripts": {
+    "build": "gulp",
+    "start": "gulp watch & node server.js"
   }
 }

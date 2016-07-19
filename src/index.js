@@ -2,8 +2,6 @@ var page = require('page');
 
 require('./header')
 
-
-
 page();
 
 

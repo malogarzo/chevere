@@ -1,9 +1,12 @@
 var yo = require('yo-yo');
 
 module.exports = yo`<nav role="navigation" class="white">
-      <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">Chevere Club Creativo</a>
+      <div class="nav-wrapper container">
+        <a id="logo-container" href="#" class="brand-logo">
+          <img src="logo_cheverecc.png" alt="" />
+        </a>
         <ul class="right hide-on-med-and-down">
-          <li><a href="#">Inicios</a></li>
+          <li><a href="#">Inicio</a></li>
           <li><a href="#">Club</a></li>
           <li><a href="#socios">Socios</a></li>
           <li><a href="#services">Servicios</a></li>

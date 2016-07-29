@@ -1,6 +1,7 @@
 html
   head
     link(href='https://fonts.googleapis.com/icon?family=Material+Icons' rel='stylesheet')
+    link(rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css')
     link(rel='stylesheet' type='text/css' href='app.css')
     
     link(rel='apple-touch-icon', sizes='57x57', href='/apple-icon-57x57.png')
@@ -30,7 +31,7 @@ html
       .section.no-pad-bot
         .container
           .row.center
-            h5.header.col.s12.light Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            h5.header.col.s12.light El tiempo pasa y modifica. Algo cambia, lo esencial permanece.
           .row.center
             a#download-button.btn-large.waves-effect.waves-light.teal.lighten-1(href='#') Conocenos
       .parallax
@@ -46,9 +47,28 @@ html
             p.left-align.light
               | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque id nunc nec volutpat. Etiam pellentesque tristique arcu, non consequat magna fermentum ac. Cras ut ultricies eros. Maecenas eros justo, ullamcorper a sapien id, viverra ultrices eros. Morbi sem neque, posuere et pretium eget, bibendum sollicitudin lacus. Aliquam eleifend sollicitudin diam, eu mattis nisl maximus sed. Nulla imperdiet semper molestie. Morbi massa odio, condimentum sed ipsum ac, gravida ultrices erat. Nullam eget dignissim mauris, non tristique erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae
 
-    #services.container
+    #socios.container
       .section
-        // Services Section
+        // Socios section
+        .row
+          .col.s12.m3.center
+            a(href='#')
+              img(src='logo_buenrollo.png', alt='Buen Rollo')
+            // p Lorem ipsum dolor sit amet
+
+          .col.s12.m3.center
+            a(href='#')
+              img(src='logo_creatura.png', alt='')
+            // p Lorem ipsum dolor sit amet
+
+          .col.s12.m3.center
+            a(href='#')
+              img(src='logo_buey.png', alt='')
+            // p Lorem ipsum dolor sit amet
+
+    //#services.container
+      .section
+        // Services section
         .row
           h3
             i.mdi-content-send.brown-text
@@ -104,25 +124,22 @@ html
 
           .col.l3.s12
             h5.white-text Social
-            ul
+            ul.footer-social
               li
-                a.white-text(href='https://www.facebook.com/https://www.facebook.com/chevereclubcreativo')
-                  i.small.fa.fa-facebook-square.white-text
-                  | Facebook
+                a.white-text(href='https://www.facebook.com/chevereclubcreativo')
+                  i.small.fa.fa-facebook.white-text
+
               li
                 a.white-text(href='https://www.instagram.com/chevere.club')
-                  i.small.fa.fa-instagram-square.white-text
-                  | Instagram
+                  i.small.fa.fa-instagram.white-text
 
               li
                 a.white-text(href='https://twitter.com/cheverecc')
-                  i.small.fa.fa-twitter-square.white-text
-                  | Twitter
+                  i.small.fa.fa-twitter.white-text
 
               li
                 a.white-text(href='https://www.linkedin.com/company/chevere-arte')
-                  i.small.fa.fa-linkedin-square.white-text
-                  | Linkedin
+                  i.small.fa.fa-linkedin.white-text
           
       .footer-copyright
         .container

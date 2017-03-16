@@ -7,10 +7,8 @@ module.exports = yo`<nav role="navigation" class="white">
         </a>
         <ul class="right hide-on-med-and-down">
           <li><a href="#">Inicio</a></li>
-          <li><a href="#">Club</a></li>
+          <li><a href="#club">Club</a></li>
           <li><a href="#socios">Socios</a></li>
-          <li><a href="#services">Servicios</a></li>
-          <li><a href="#">Proyectos</a></li>
           <li><a href="#">Contacto</a></li>
         </ul>
         <ul id="nav-mobile" class="side-nav">
